@@ -11,7 +11,7 @@ const request = require('request-promise')
  */
 module.exports = function (sheetURL) {
   const cb = this.async()
-  const url = `https://spreadsheets.google.com/feeds/list/${sheetURL}/od6/public/values?alt=json`
+  const url = `https://spreadsheets.google.com/feeds/list/${sheetURL.replace(/(\r\n|\n|\r)/gm,'')}/od6/public/values?alt=json`
 
   return request(url)
     .then((res) => {

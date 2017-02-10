@@ -1,6 +1,6 @@
 {
   "name": "gsheets-i18n-loader",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Webpack loader that grabs Google spreadsheets data as JSON (simple CMS for i18n string management)",
   "main": "index.js",
   "scripts": {
