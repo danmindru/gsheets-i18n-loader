@@ -14,7 +14,7 @@ Require a file `some-file.gsheets` (plain text) that contains your google sheet 
 
 Don't know how to get the id? Check [this](https://fadeit.dk/blog/2015/05/08/managing-angular-translate-translations/) out.
 
-===================
+-----------------------------
 <br/>
 <a href="http:fadeit.dk"><img src="http://fadeit.dk/src/assets/img/brand/fadeit_logo_full.svg" alt="The fadeit logo" style="width:200px;"/></a><br/><br/>
 
