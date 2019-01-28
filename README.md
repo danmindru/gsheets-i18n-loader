@@ -10,7 +10,16 @@ Check output in `demo/output/bundle.js`
 `npm run test:watch`
 
 ### Usage
-Require a file `some-file.gsheets` (plain text) that contains your google sheet id (see [demo](demo)).
+- Create a Google Spreadsheet like [this one](https://docs.google.com/spreadsheets/d/151DOW0-9Dt_24FNe3536SSotvNAKyQI6bOsznIyd-V0/edit?usp=sharing) *
 
-Don't know how to get the id? Check [this](https://developers.google.com/sheets/api/guides/concepts#spreadsheet_id) out.
+- Require a file `some-file.gsheets` (plain text) that contains your google sheet id** (see [demo](demo)).
+
+> * The spreadsheet should have the following format: 
+
+| key	|en|	de |	jp | 
+|-|-|-|-|
+| TEST	|Testosterone	|Testosteron	|テストステロン|
+|QUOTE	| Q'uo"t	|Q'uo"t"	|Q'u'o"t|
+
+> ** Don't know how to get the id? Check [this](https://developers.google.com/sheets/api/guides/concepts#spreadsheet_id) out.
 
